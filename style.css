@@ -833,6 +833,15 @@ h4 {
     font-size: 20px;
     text-align: center;
 }
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img,
+.img-responsive,
+.thumbnail a>img,
+.thumbnail>img {
+    max-width: 50%;
+    height: auto;
+    margin-left: 85px;
+}
 
 
 @media (max-width: 1024px) {
