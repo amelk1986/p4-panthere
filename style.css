@@ -362,7 +362,11 @@ a:hover {
     position: relative;
     z-index: 2;
 }
-
+.row .row-no-gutters
+{
+    display: flex;
+    justify-content: space-between;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
